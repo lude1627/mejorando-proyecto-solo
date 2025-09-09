@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from models.carrito.carrito_entity import CarritoEntity
 from models.carrito.carrito_class import CarritoClass
-from services.carrito_service import eliminar_producto, actualizar_cantidad, obtener_carrito_usuario
+
 
 carrito_router = APIRouter(
     prefix="/carro", 

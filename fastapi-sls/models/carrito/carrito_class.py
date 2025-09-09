@@ -1,13 +1,5 @@
 from models.carrito.carrito_entity import CarritoEntity
-from services.usuario_service import verificar_usuario_existe
-from services.producto_service import verificar_producto_existe, verificar_cantidad
-from services.carrito_service import (
-    verificar_carrito_activo, 
-    obtener_carrito_usuario,
-    insertar_producto,
-    eliminar_producto,
-    actualizar_cantidad
-)
+
 
 from db import execute_query
 
